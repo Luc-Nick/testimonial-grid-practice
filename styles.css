@@ -21,6 +21,7 @@ body{
     grid-template-rows: 1fr 1fr;
 } 
 .card{
+    position: relative;
     min-width: 200px;
     margin: 10px; 
     background: rgba(243, 243, 243, 0.945); 
@@ -66,6 +67,17 @@ body{
 } 
 #item-1 img{
     border-color: #df7878ee;
+}
+
+#item-1 h3{
+    z-index: 100;
+}
+
+.quote img{
+    position: absolute; 
+    opacity: 60%; 
+    right: 100px;
+    z-index: 0;
 }
 
 #item-2{
